@@ -196,17 +196,15 @@ body {
 }
 
 
-.nav {
-    text-decoration: none;
-    
-}
+
 #navbar { 
     display: flex;
     position: absolute;
-    width: 385px;
-    height: 31px;
-    left: 800px;
-    top: 23px; 
+    right: 3%;
+    top: 3%;
+   
+   
+   
     flex-direction: row;
     justify-content:  space-evenly;
     text-align: right;
@@ -371,7 +369,7 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    top: 30%;
+    top: 35%;
     
     
 }
@@ -405,6 +403,7 @@ li {
     font-family: Bebas Neue;
     font-size: 30px;
     color:rgba(58, 50, 34, 0.99);
+    
 
     text-decoration: none;
 
@@ -419,6 +418,8 @@ li {
     font-family: Petrona;
     margin: 0 auto;
     margin-top: 10px;
+
+    line-height: 20px;
 }
 
 #food {
@@ -427,6 +428,7 @@ li {
     position: relative;
     margin: 0 auto;
     margin-top: 10px;
+    line-height: 20px;
    
 }
 #art {
@@ -435,6 +437,7 @@ li {
     position: relative;
     margin: 0 auto;
     margin-top: 10px;
+    line-height: 20px;
    
   
   
@@ -445,6 +448,7 @@ li {
     position: relative;
     margin: 0 auto;
     margin-top: 10px;
+    line-height: 20px;
     
 }
 
@@ -452,7 +456,7 @@ li {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 10%;
+    top: 15%;
     
     
     font-family: Bebas Neue;
