@@ -1,6 +1,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     html {
-        font-size: 14px;
+        font-size: 15px;
     }
  }
 
@@ -456,7 +456,7 @@ li {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 15%;
+    top: 12%;
     
     
     font-family: Bebas Neue;
@@ -694,10 +694,10 @@ li {
 
 #projectspage {
     position: absolute;
-    width: 328px;
-    height: 61px;
-    left: 570px;
-    top: 60px;
+    width: 100%;
+    text-align: center;
+    top: 12%;
+    
     
     font-family: Bebas Neue;
     font-size: 40px;
@@ -705,39 +705,60 @@ li {
 
 }
 
-#proj-icon-box {
+#proj-box-content {
     display: flex;
     position: absolute;
-    width: 1020px;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-evenly;
-    top: 200px;
-    left: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 35%;  
+    
+}
+
+
+.proj-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+    
+    text-align: center;
 
 }
 
-#proj-section {
-    display: flex;
-    position: absolute;
-    width: 1020px;
-    flex-direction: row;
-    justify-content: space-evenly;
+.proj-icon {
+   margin-bottom: 7%;
+
+}
+
+
+
+#proj1 {
+    margin: 0 auto;
     font-family: Bebas Neue;
     font-size: 30px;
+    color:rgba(58, 50, 34, 0.99);
 
-    top: 420px;
-    left: 100px;
 }
 
+
 #proj2 {
-    position: relative;
-    left: 20px;
+    margin: 0 auto;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    color:rgba(58, 50, 34, 0.99);
+    
+    
     
 }
 
 #proj3 {
-    position: relative;
-    left: 40px;
+    margin: 0 auto;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    color:rgba(58, 50, 34, 0.99);
+    
 }
 
 #ukepage {
