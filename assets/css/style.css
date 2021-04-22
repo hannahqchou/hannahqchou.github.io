@@ -1,0 +1,865 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+ }
+
+ @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+
+
+
+ 
+body {
+    background: #F5EACF;
+}
+.landing-page {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    background:linear-gradient(180deg, rgba(74, 48, 77, 0.99) 0%, #B17179 27.08%, #FFB37B 60.42%, #FFF199 86.98%);
+}
+
+.landing-page img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+    
+}
+
+#landing-page-txt {
+    font-family: "Petrona", serif;
+    font-size: 65px;
+    text-align: center;
+    position: absolute;
+    width: 600px;
+    height: 62px;
+    left: 40px;
+    top: 100px;
+
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+    
+}
+
+
+
+#navBarIntro {
+    font-family: "Petrona", serif; 
+    font-size: 45px;
+    position: relative;
+    width: 600px;
+    text-align: center;
+    left: 40px;
+    top: 220px;
+
+
+}
+
+
+#about {
+    position: absolute;
+    z-index: 10;
+    left: 980px;
+    top: 130px;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    transform: matrix(0.99, 0.15, -0.16, 0.99, 0, 0);
+    text-decoration: none;
+    color: #2D261C;
+}
+
+#about:hover {
+    color: white;
+    cursor: pointer;
+
+}
+#about-sign {
+    position: absolute;
+    left: 880px;
+    top: 100px;
+}
+
+#experience-sign {
+    position: absolute;
+    left: 870px;
+    top: 220px;
+}
+
+#experience {
+    position: absolute;
+    z-index: 10;
+    left: 940px;
+    top: 244px;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    text-decoration: none;
+    color: #2D261C;
+
+    transform: rotate(-5.95deg);
+}
+
+#experience:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+#projects-sign {
+    position: absolute;
+    left: 870px;
+    top: 340px;
+}
+
+#projects {
+    position: absolute;
+    z-index: 10;
+    left: 960px;
+    top: 355px;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    text-decoration: none;
+    color: #2D261C;
+
+    transform: rotate(3.91deg);
+}
+
+#projects:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#hobbies-sign {
+    position: absolute;
+    left: 900px;
+    top: 480px;
+}
+
+#hobbies {
+    position: absolute;
+    z-index: 10;
+    left: 970px;
+    top: 485px;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    text-decoration: none;
+    color: #2D261C;
+
+    transform: rotate(-0.31deg);
+
+}
+
+#hobbies:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav {
+    text-decoration: none;
+    
+}
+#navbar { 
+    display: flex;
+    position: absolute;
+    width: 385px;
+    height: 31px;
+    left: 800px;
+    top: 23px; 
+    flex-direction: row;
+    justify-content:  space-evenly;
+    text-align: right;
+    text-decoration: none;
+
+
+}
+
+.nav-item {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    
+    
+   
+
+}
+
+#nav-text {
+    text-decoration: none;
+    color:rgba(58, 50, 34, 0.99);
+}
+
+#nav-text:hover {
+    text-decoration: underline;
+}
+
+#about-title {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 700px;
+    top: 110px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+}
+
+#pfp {
+    position: absolute;
+    width: 25%;
+    left: 150px;
+    top: 170px;
+
+}
+
+#top-five {   
+    position: absolute;
+    width: 290px;
+    height: 166px;
+    left: 152px;
+    top: 550px;
+
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+  
+}
+
+#contact {
+    position: absolute;
+    width: 372px;
+    height: 194px;
+    left: 676px;
+    top: 155px;
+
+
+    font-family: Petrona;
+    font-size: 15px;
+    line-height: 23px;   
+
+}
+
+#bio {
+    position: absolute;
+    width: 448px;
+    height: 445px;
+    left: 700px;
+    top: 195px;
+
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
+}
+
+#top-five {
+    position: absolute;
+    top: 660px;
+    left: 150px;
+    height: 445px;
+    font-size: 24px;
+}
+
+#top-five-title {
+    font-family: Bebas Neue;
+    font-size: 40px;
+
+}
+
+#self-portrait {
+    position: absolute;
+    top: 660px;
+    left :620px;
+    height: 440px;
+
+}
+
+#speech-bubble {
+    position: absolute;
+    left: 630px;
+    width: 500px;
+
+}
+#speech-bubble-txt {
+    position: absolute;
+    top: 665px;
+    right: 275px;
+    text-align: center;
+
+    font-family: Petrona;
+    font-size: 20px;
+    line-height: 27px;
+   
+
+
+
+}
+
+
+#contact-box {
+    display: flex;
+    position: absolute;
+    width: 350px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 1030px;
+    left: 90px;
+}
+.icon:hover {
+    transform: scale(1.2);
+
+}
+
+
+li {
+    margin: 20px;
+}
+
+
+#hobbies-icon-box {
+    display: flex;
+    position: absolute;
+    width: 1020px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 170px;
+    left: 120px;
+}
+
+.hobbies-icon {
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+#hobbies-title {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 580px;
+    top: 60px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+
+#hobbies-section-title {
+    display: flex;
+    position: absolute;
+    width: 1020px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Bebas Neue;
+    font-size: 30px;
+
+    top: 440px;
+    left: 50px;
+    
+   
+}
+
+#book-title {
+    text-decoration: none;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+#food-title {
+    position: relative;
+    left: 50px;
+    text-decoration: none;
+    color:rgba(58, 50, 34, 0.99);
+}
+
+#art-title {
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+    color:rgba(58, 50, 34, 0.99);
+}
+
+#uke-title {
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+    color:rgba(58, 50, 34, 0.99);
+}
+
+#book-title:hover {
+    text-decoration: underline;
+
+}
+#food-title:hover {
+    text-decoration: underline;
+    
+}
+
+#art-title:hover {
+    text-decoration: underline;
+    
+}
+
+#uke-title:hover {
+    text-decoration: underline;
+    
+}
+
+#hobbies-intro {
+    display: flex;
+    display: flex;
+    position: absolute;
+    width: 1020px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Petrona;
+    line-height: 23px;
+    text-align: center;
+
+    top: 480px;
+    left: 80px;
+
+}
+
+#books {
+    width: 150px;
+    position: relative;
+    left: 10px;
+
+}
+#food {
+    width: 200px;
+    position: relative;
+    left: 25px;
+}
+#art {
+    width: 150px;
+    position: relative;
+    left: 20px;
+}
+#uke {
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+
+
+#artwork-box {
+    position: absolute;
+    top: 200px;
+    left: 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+   
+    width: 900px;
+
+    
+}
+
+
+
+#bob-ross {
+    width: 215px;
+    height: 206px;
+    margin: 10px;
+}
+
+#gudetama {
+    width: 211px;
+    height: 253px;
+    margin: 10px;
+
+}
+
+#NYC {
+    width: 239px;
+    height: 159px;
+    margin: 10px;
+
+}
+
+#linus {
+    position: relative;
+    width: 215px;
+    height: 248px;
+    margin: 10px;
+    bottom: 48px;
+
+}
+
+#hand {
+    width: 211px;
+    height: 200px;
+    margin: 10px;
+    transform: rotate(-90deg);
+    
+
+}
+
+#sprited-away {
+    position: relative;
+    width: 240px;
+    height: 292px;
+    margin: 10px;
+    bottom: 87px;
+
+}
+
+#water-tracker {
+    position: relative;
+    width: 143px;
+    height: 218px;
+    margin: 10px;
+    bottom: 14px;
+}
+
+#artpage {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 580px;
+    top: 60px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+
+#foodpage {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 600px;
+    top: 60px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+
+#homecooked-box {
+    position: absolute;
+    top: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    left: 60px;
+    
+}
+
+#homecooked-title {
+    position: absolute;
+    width: 307px;
+    height: 27px;
+    left: 100px;
+    top: 165px;
+
+    font-family: Petrona;
+    font-size: 25px;
+    line-height: 28px;
+
+
+}
+
+#line {
+    position: absolute;
+    width: 162.03px;
+    height: 0px;
+    left: 94px;
+    top: 220.75px;
+
+    border: 3px solid #85865F;
+}
+.homecooked-food {
+    width: 192px;
+    height: 204px;
+
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+#restaurants {
+
+    position: absolute;
+    width: 307px;
+    height: 27px;
+    left: 100px;
+    top: 502px;
+
+    font-family: Petrona;
+    
+    font-size: 25px;
+   
+
+}
+
+#line2 {
+    position: absolute;
+    width: 162.03px;
+    height: 0px;
+    left: 94px;
+    top: 560px;
+
+    border: 3px solid #85865F;
+
+}
+
+#experiencepage {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 560px;
+    top: 60px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+
+#projectspage {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 570px;
+    top: 60px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+
+#proj-icon-box {
+    display: flex;
+    position: absolute;
+    width: 1020px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 200px;
+    left: 120px;
+
+}
+
+#proj-section {
+    display: flex;
+    position: absolute;
+    width: 1020px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Bebas Neue;
+    font-size: 30px;
+
+    top: 420px;
+    left: 100px;
+}
+
+#proj2 {
+    position: relative;
+    left: 20px;
+    
+}
+
+#proj3 {
+    position: relative;
+    left: 40px;
+}
+
+#ukepage {
+    position: absolute;
+    width: 328px;
+    height: 61px;
+    left: 570px;
+    top: 60px;
+    
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+
+}
+
+#uke-content {
+    position: absolute;
+    width: 646px;
+    height: 211px;
+    left: 300px;
+    top: 180px;
+}
+
+.uke-txt {
+    position: absolute;
+    font-family: Petrona;
+    font-size: 20px;
+    line-height: 27px;
+
+    top: 40px;
+    left: 85px;
+    
+
+}
+
+#exp-content {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.692);
+    width: 1000px;
+    height: 1000px;
+    left: 130px;
+
+    top: 170px;
+    
+
+}
+#educ-title {
+    position: relative;
+    margin: 0px;
+    top: 90px;
+    left: 100px;
+    font-family: Petrona;
+    font-size: 30px;
+    line-height: 34px;
+
+}
+
+#blue-line {
+    position: relative;
+    top: 86px;
+    left: 90px;
+}
+
+#educ-txt {
+    position: relative;
+    left: 90px;
+    top: 100px;
+    font-family: Petrona;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#educ-txt2 {
+    position: relative;
+    left: 90px;
+    top: 100px;
+    font-family: Petrona;
+    font-size: 15px;
+    line-height: 23px;
+
+}
+
+#educ-details {
+    position: relative;
+    left: 600px;
+    top: 22px;
+    width: 400px;
+    margin: 0px;
+    
+    font-family: Petrona;
+    font-size: 20px;
+    line-height: 23px;
+
+   
+
+}
+
+#coursework {
+    position: relative;
+    left: 600px;
+    top: 40px;
+    
+    font-family: Petrona;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 23px;
+
+    
+
+}
+
+#courses {
+    list-style: circle;
+    position: relative;
+    height: 400px;
+  
+  
+    margin: 0px;
+    padding: 0px;
+    left: 600px;
+    top: 40px;
+
+    
+    font-family: Petrona;
+    font-size: 20px;
+    line-height: 15px;
+
+
+}
+
+#work-title {
+    position: relative;
+    left: 100px;
+
+    font-family: Petrona;
+    font-size: 30px;
+    line-height: 34px;
+
+
+}
+
+#blue-line2 {
+    position: relative;
+
+    left: 90px;
+    bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+
