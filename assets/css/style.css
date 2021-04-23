@@ -44,6 +44,8 @@
  
 body {
     background: #F5EACF;
+    overflow: scroll;
+    
 }
 .landing-page {
     display: block;
@@ -236,29 +238,69 @@ body {
 
 #about-title {
     position: absolute;
-    width: 328px;
-    height: 61px;
-    left: 700px;
-    top: 110px;
+    width: 100%;
+    text-align: center;
+    top: 12%;
     
     font-family: Bebas Neue;
     font-size: 40px;
+    color:rgba(58, 50, 34, 0.99);
+}
+
+
+
+#bio {
+    position: absolute;
+    width: 40%;
+    right: 8%;
+    top: 27%;
+
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+
 }
 
 #pfp {
-    position: absolute;
-    width: 25%;
-    left: 150px;
-    top: 170px;
-
+    position: relative;
+    width: 300px;
+    left: 17%;
+    top: 2%;
+  
+    margin-bottom: 7%;
 }
 
-#top-five {   
+
+
+
+
+
+
+#about-left {
     position: absolute;
-    width: 290px;
-    height: 166px;
-    left: 152px;
-    top: 550px;
+    top: 27%;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+    width: 50%;
+}
+
+
+
+#top-five-title {
+    font-family: Bebas Neue;
+    font-size: 40px;
+    
+}
+#top-five {   
+    position: relative;
+
+    left: 20%;
+   
 
     font-family: Petrona;
     font-style: normal;
@@ -266,90 +308,37 @@ body {
     font-size: 20px;
     line-height: 23px;
 
+    margin-bottom: 8%;
+
   
-}
-
-#contact {
-    position: absolute;
-    width: 372px;
-    height: 194px;
-    left: 676px;
-    top: 155px;
-
-
-    font-family: Petrona;
-    font-size: 15px;
-    line-height: 23px;   
-
-}
-
-#bio {
-    position: absolute;
-    width: 448px;
-    height: 445px;
-    left: 700px;
-    top: 195px;
-
-    font-family: Petrona;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 27px;
-
-}
-
-#top-five {
-    position: absolute;
-    top: 660px;
-    left: 150px;
-    height: 445px;
-    font-size: 24px;
-}
-
-#top-five-title {
-    font-family: Bebas Neue;
-    font-size: 40px;
-
 }
 
 #self-portrait {
     position: absolute;
-    top: 660px;
-    left :620px;
-    height: 440px;
-
-}
-
-#speech-bubble {
-    position: absolute;
-    left: 630px;
+    margin-top: 7%;
+    margin-bottom: 3%;
     width: 500px;
-
-}
-#speech-bubble-txt {
-    position: absolute;
-    top: 665px;
-    right: 275px;
-    text-align: center;
-
-    font-family: Petrona;
-    font-size: 20px;
-    line-height: 27px;
+    right: 8%;
    
 
-
-
 }
+
+
 
 
 #contact-box {
     display: flex;
-    position: absolute;
-    width: 350px;
+   
+    width: 50%;
+    margin-left: 30px;
+    bottom: 0px;
     flex-direction: row;
     justify-content: space-evenly;
-    top: 1030px;
-    left: 90px;
+    
+
+}
+.icon {
+    padding: 10px;
 }
 .icon:hover {
     transform: scale(1.2);
@@ -381,7 +370,8 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     
     text-align: center;
 }
@@ -464,10 +454,6 @@ li {
     color:rgba(58, 50, 34, 0.99);
 
 }
-
-
-   
-
 
 
 #food-title {
@@ -668,29 +654,8 @@ li {
 
 }
 
-#line2 {
-    position: absolute;
-    width: 162.03px;
-    height: 0px;
-    left: 94px;
-    top: 560px;
 
-    border: 3px solid #85865F;
 
-}
-
-#experiencepage {
-    position: absolute;
-    width: 328px;
-    height: 61px;
-    left: 560px;
-    top: 60px;
-    
-    font-family: Bebas Neue;
-    font-size: 40px;
-    color:rgba(58, 50, 34, 0.99);
-
-}
 
 #projectspage {
     position: absolute;
