@@ -4,9 +4,13 @@
     }
  }
 
- @media screen and (min-height: 768px) and (max-height: 900px) {
-     
+ @keyframes upDown { 
+    0% { top: 38%; }
+   50% { top: 37.5%; }
+   100% { top: 38%; }
+
  }
+ 
  
 
 @keyframes fadeIn {
@@ -60,16 +64,19 @@ body {
 
 #car{
     position: absolute;
- 
-    
+  
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
- 
+
+
+    animation-name: upDown;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
     
-    
-    
-    
+     
     
 }
 
