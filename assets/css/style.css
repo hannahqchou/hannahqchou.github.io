@@ -1,6 +1,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     html {
         font-size: 15px;
+        overflow: auto;
     }
  }
 
@@ -53,7 +54,6 @@ body {
 }
 .landing-page {
     overflow: auto;
-  
     display: block;
     width: 100%;
     height: 100%;
@@ -114,6 +114,7 @@ body {
 }
 
 #landing-nav {
+    overflow: auto;
     display: flex;
     position: relative;
     top: 55%;
