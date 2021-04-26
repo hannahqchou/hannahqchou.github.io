@@ -1,8 +1,30 @@
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 700px) and (max-width: 1440px) {
     html {
         font-size: 15px;
         overflow: auto;
     }
+
+    #mobile-about {
+        display: none;
+    }
+ }
+
+ @media (max-width: 700px) {
+     #about-left {
+         display: none;
+     }
+     #bio {
+         display: none;     
+        }
+     #mobile-about {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+        
+
+
  }
 
  @keyframes upDown { 
@@ -49,8 +71,7 @@
  
 body {
     background: #F5EACF;
-    overflow: auto;
-    
+    overflow: auto;   
 }
 .landing-page {
     overflow: auto;
@@ -245,6 +266,7 @@ body {
 
 
 #navbar { 
+    overflow: auto;
     display: flex;
     position: absolute;
     right: 3%;
@@ -253,6 +275,7 @@ body {
    
    
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content:  space-evenly;
     text-align: right;
     text-decoration: none;
@@ -261,6 +284,7 @@ body {
 }
 
 .nav-item {
+
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -296,6 +320,7 @@ body {
 
 #bio {
     position: absolute;
+    
     width: 40%;
     right: 8%;
     top: 27%;
@@ -308,8 +333,35 @@ body {
 
 }
 
+#bio-mobile {
+    position: absolute;
+    display: block;
+    
+    width: 80%;
+    text-align: center;
+    
+    top: 620px;
+    margin-top: 10px;
+
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+#pfp-mobile {
+    position: absolute;
+    width: 300px;
+    margin-top: 10px;
+
+  
+    margin-bottom: 10px;
+}
 #pfp {
     position: relative;
+    display: block;
     width: 300px;
     left: 17%;
     top: 2%;
@@ -326,12 +378,33 @@ body {
 #about-left {
     position: absolute;
     top: 27%;
-    display: flex;
+    
     flex-direction: column;
   
     
     
     width: 50%;
+}
+
+#top-five-mobile {
+    position: absolute;
+    top: 1000px;
+
+   
+
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    margin-bottom: 8%;
+}
+
+#top-five-title-mobile {
+    font-family: Bebas Neue;
+    font-size: 30px;
+
 }
 
 
@@ -357,6 +430,12 @@ body {
 
   
 }
+#self-portrait-mobile {
+    position: relative;
+    top: 1320px;
+
+
+}
 
 #self-portrait {
     position: absolute;
@@ -367,6 +446,24 @@ body {
    
 
 }
+
+#contact-box-mobile {
+    display: flex;
+    flex-direction: column;
+    right: 200px;
+    
+    z-index: 1;
+
+    
+  
+    
+ 
+
+    position: relative;
+    top: 1020px;
+}
+
+
 
 
 
