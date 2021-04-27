@@ -653,22 +653,37 @@ li {
 
 }
 
-
+.content {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
 
 
 
 #artwork-box {
-    position: absolute;
-    top: 200px;
-    left: 175px;
+    
+    
+
     display: flex;
+    position: relative;
+   
+    margin-left: auto;
+    margin-right: auto;
+
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-   
+    justify-content: center;
+    top: 60px;
     width: 900px;
 
     
+}
+
+#beach {
+    position: relative;
+    width: 143px;
+    margin: 10px;
 }
 
 
@@ -698,7 +713,8 @@ li {
     width: 215px;
     height: 248px;
     margin: 10px;
-    bottom: 48px;
+    bottom: 40px;
+    
 
 }
 
@@ -716,7 +732,8 @@ li {
     width: 240px;
     height: 292px;
     margin: 10px;
-    bottom: 87px;
+    bottom: 80px;
+
 
 }
 
@@ -725,19 +742,22 @@ li {
     width: 143px;
     height: 218px;
     margin: 10px;
-    bottom: 14px;
+    
 }
 
 #artpage {
-    position: absolute;
-    width: 328px;
-    height: 61px;
-    left: 580px;
+    position: relative;
+    width: 100%;
+    text-align: center;
     top: 60px;
+    
+    
     
     font-family: Bebas Neue;
     font-size: 40px;
     color:rgba(58, 50, 34, 0.99);
+
+    margin-bottom: 20px;
 
 }
 
